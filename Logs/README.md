@@ -1,2 +1,2 @@
-#Upade Logs
+#Upadate Logs
 
