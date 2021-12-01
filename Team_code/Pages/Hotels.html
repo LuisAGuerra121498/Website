@@ -2,6 +2,11 @@
 <html>
 <head>
 <title>Welcome to Houston!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 	*{
 	margin:0;
@@ -22,8 +27,8 @@
 	font-size:35px;
 	font-family:sans-serif;
 	}
-	nav{
-	width:68%;
+	myNavbar{
+	width:100%;
 	float:right;
 	}
 	nav ul{
@@ -88,14 +93,7 @@
 	nav ul {
 	 float: none;
 	}
-	   }    
-
-<!--This section is for the header, the home button on the right-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {margin:0;}
-
+	   } 
 .icon-bar {
   width: 100%;
   background-color: #555;
@@ -164,12 +162,24 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<div class="icon-bar">
-  <a href="index.php"><i class="fa fa-fw fa-home"></i>Home</a>
-</div>
-
-<header>
-<div class="logo">The Guide</div>
+<div class="w3-top ">
+	<div class="w3-bar w3-white w3-card" id="myNavbar">
+		<a href="index.php" class="w3-bar-item w3-button w3-wide">Houston Elite </a>
+		<!-- Right-sided navbar links -->
+		<div class="w3-right w3-hide-small">
+			<a href="Entertainment.html" class="w3-bar-item w3-button"><i class="fa fa-ticket"></i>Entertainment</a>
+			<a href="Food.html" class="w3-bar-item w3-button"><i class="fa fa-cutlery"></i> Food</a>
+			<a href="Hotels.html" class="w3-bar-item w3-button"><i class="fa fa-suitcase"></i> Hotel</a>
+			<a href="Developers.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Developers</a>
+			<a href="Contact_us.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact Us</a>
+		  </div>
+		  <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+	  
+		  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+	  </div>
 </header>
 
 	<div class="banner"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Aerial_views_of_the_Houston%2C_Texas%2C_28005u.jpg/1200px-Aerial_views_of_the_Houston%2C_Texas%2C_28005u.jpg"></div>
