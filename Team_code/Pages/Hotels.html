@@ -8,154 +8,132 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+
 	*{
-	margin:0;
-	padding:0;
+		margin:0;
+		padding:0;
+		}
+		
+		.content{
+		padding:5%;
+		}
+		.content p{
+		font-size:18px;
+		line-height:1.7;
+		font-family:sans-serif;
+		margin-bottom:25px;
+		}
+		footer{
+		background:#000;
+		color:#fff;
+		padding:15px 50px;
+		text-align:center;
+		}
+		   
+		   
+		   @media (max-width: 600px){        
+	
+		header {
+		 width: 100%;
+		 height: 100%;
+		 padding: 0;
+		 text-align: center;
+		}
+		.logo {
+		 width: 100%;
+		 float: none;
+		}
+		nav {
+		 width: 100%;
+		 float: none;
+		}
+		nav ul li {
+		 display: block;
+		}
+		nav ul {
+		 float: none;
+		}
+		   } 
+	.icon-bar {
+	  width: 100%;
+	  background-color: #555;
+	  overflow: right;
 	}
-	header{
-	height:60px;
-	background:#262626;
-	padding:0 50px;
+	
+	.icon-bar a {
+	  float: right;
+	  width: 20%;
+	  text-align: center;
+	  padding: 12px 0;
+	  transition: all 0.3s ease;
+	  color: white;
+	  font-size: 36px;
 	}
-	.logo{
-	width:30%;
-	float:left;
-	color:#fff;
-	font-weight:bold;
-	text-transform:uppercase;
-	line-height:60px;
-	font-size:35px;
-	font-family:sans-serif;
+	
+	.icon-bar a:hover {
+	  background-color: darksalmon;
 	}
-	myNavbar{
-	width:100%;
-	float:right;
+	
+	.active {
+	  background-color: #262626;
 	}
-	nav ul{
-	list-style:none;
-	float:right;
+	
+	
+	
+	<!--This section is for my newsletter-->
+	body {font-family: Arial, Helvetica, sans-serif;}
+	
+	form {
+	  border: 3px solid #f1f1f1;
+	  font-family: Arial;
 	}
-	nav ul li{
-	display: inline-block;
+	
+	.container {
+	  padding: 20px;
+	  background-color: #f1f1f1;
 	}
-	nav ul li a{
-	text-decoration: none;
-	color:#fff;
-	font-family:sans-serif;
-	font-weight:bold;
-	margin:0 10px;
-	line-height:60px;
-	text-transform:uppercase;
+	
+	input[type=text], input[type=submit] {
+	  width: 100%;
+	  padding: 12px;
+	  margin: 8px 0;
+	  display: inline-block;
+	  border: 1px solid #ccc;
+	  box-sizing: border-box;
 	}
-	.banner{
-	height:100%;
+	
+	input[type=checkbox] {
+	  margin-top: 16px;
 	}
-	.banner img{
-	width:100%;
-	height:90vh;
+	
+	input[type=submit] {
+	  background-color:darksalmon;
+	  color: white;
+	  border: none;
 	}
-	.content{
-	padding:5%;
+	
+	input[type=submit]:hover {
+	  opacity: 0.8;
 	}
-	.content p{
-	font-size:18px;
-	line-height:1.7;
-	font-family:sans-serif;
-	margin-bottom:25px;
-	}
-	footer{
-	background:#000;
-	color:#fff;
-	padding:15px 50px;
-	text-align:center;
-	}
-	   
-	   
-	   @media (max-width: 600px){        
+	
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
-	header {
-	 width: 100%;
-	 height: 100%;
-	 padding: 0;
-	 text-align: center;
-	}
-	.logo {
-	 width: 100%;
-	 float: none;
-	}
-	nav {
-	 width: 100%;
-	 float: none;
-	}
-	nav ul li {
-	 display: block;
-	}
-	nav ul {
-	 float: none;
-	}
-	   } 
-.icon-bar {
-  width: 100%;
-  background-color: #555;
-  overflow: right;
+body, html {
+	height: 100%;
+	line-height: 1.8;
 }
-
-.icon-bar a {
-  float: right;
-  width: 20%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
+	
+/* Full height image header */
+.bgimg-1 {
+	background-position: center;
+	background-size: cover;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Aerial_views_of_the_Houston%2C_Texas%2C_28005u.jpg/1200px-Aerial_views_of_the_Houston%2C_Texas%2C_28005u.jpg");
+	min-height: 100%;
 }
-
-.icon-bar a:hover {
-  background-color: darksalmon;
+	
+.w3-bar .w3-button {
+	padding: 16px;
 }
-
-.active {
-  background-color: #262626;
-}
-
-
-
-<!--This section is for my newsletter-->
-body {font-family: Arial, Helvetica, sans-serif;}
-
-form {
-  border: 3px solid #f1f1f1;
-  font-family: Arial;
-}
-
-.container {
-  padding: 20px;
-  background-color: #f1f1f1;
-}
-
-input[type=text], input[type=submit] {
-  width: 100%;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-input[type=checkbox] {
-  margin-top: 16px;
-}
-
-input[type=submit] {
-  background-color:darksalmon;
-  color: white;
-  border: none;
-}
-
-input[type=submit]:hover {
-  opacity: 0.8;
-}
-
 
 
 </style>
@@ -182,7 +160,11 @@ input[type=submit]:hover {
 	  </div>
 </header>
 
-	<div class="banner"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Aerial_views_of_the_Houston%2C_Texas%2C_28005u.jpg/1200px-Aerial_views_of_the_Houston%2C_Texas%2C_28005u.jpg"></div>
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+	<div class="w3-display-left w3-text-white" style="padding:48px">
+	</div> 
+</header>
+
 	<div class="content">
 	<h1 style= "color:darksalmon; font-size:300%;">Houston Hotels</h1>
 	<p>Planning a vacation to Houston? I am here to help you with the best hotels to stay in Houston. Our top 5 hotels are rated among the best, with 4 stars and above. Our city is filled with world-class dining, arts, shopping and nightlife. Take a night stroll through downtown to discovery green or grab a bite in one of the dozens award-winning restaurants.</p>
@@ -190,7 +172,7 @@ input[type=submit]:hover {
 	<br>
 	<h2 style="color:darksalmon; font-style: italic">Our choices for this month:</h2>
 	
-	<ol style= padding-left:50px; text-align:center">
+	<ol style= padding-left:50px; text-align:center>
 		<li>Marriott Marquis Houston</li>
 		<li>The Post Oak at Uptown Houston</li>
 		<li>The Moran CITYCENTRE</li>
